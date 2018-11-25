@@ -1,0 +1,124 @@
+.wrapper {
+    margin: auto;
+} 
+.container {
+
+}
+.slider {
+    position: relative;
+    width: 800px;
+    height:400px ;
+    margin: auto;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3)
+}
+.slider-ctrl {
+    position: absolute;
+    top: 50%;
+    border: none;
+    display: inline-block;
+    width: 50px;
+    height: 57px;
+    background-color: #26b9e1;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+img {  
+    display: inline;
+    max-width: 100%;
+    height: auto;
+}
+.slider-ctrl-prev {
+
+    left: 0;
+  
+}
+.slider-ctrl-next {
+
+    right: 0;
+}
+.slides {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slides-image {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.slides-item {
+    position: relative;
+}
+.slides--descr {
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    top: 170px;
+   width: 700px;
+   color: #fff;
+   font-size: 35px;
+
+}
+.slides--descr2 {
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    top: 210px;
+   width: 700px;
+   color: #fff;
+   font-size: 20px;
+
+}
+  
+
+/* NEW COLLECTION */
+.wrapper__section {
+    width: 100%;
+    background-color: #e9f0fd;
+}
+.newColection {
+    margin: auto;
+    width: 1600px;
+    padding: 100px 0 100px 0;   
+}
+.newColection__title {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: rgb(81, 81, 81);
+    margin-bottom: 32px;
+}
+.title__border {
+    display: block;
+    width: 165px;
+    height: 8px;
+    background-color: #1abc9c;
+    margin: auto;
+}
+.section__list {
+    margin: 80px 0 100px 0;
+    text-align: center;
+}
+.section__item {
+    position: relative;
+    display: inline-block   ;
+    width: 255px;
+    height: 320px;
+    background-color: #fff;
+}
+.ml {
+    margin-right: 30px;
+}
+.img__shadow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 260px;
+    width: 235px;
+    background-color: rgba(0, 0, 0, 0.6);
+    visibility: hidden; 
+}
+.section__item:hover>.img__shadow {
+    visibility: visible;
+}
